@@ -66,5 +66,6 @@ class ViewController: NSViewController {
     
     @IBAction func rewind(_ sender: AnyObject) {
         player?.seek(to: kCMTimeZero)
+        player?.play()
     }
 }
